@@ -1,0 +1,12 @@
+[project]
+name = "mcp-experiment"
+version = "0.1.0"
+description = "Personal experiments with Model Control Protocol (MCP) server."
+authors = [
+    { name="Jeff Yang", email="jeff52415@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mcp[cli]>=1.6.0",
+]

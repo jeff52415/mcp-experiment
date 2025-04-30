@@ -1,0 +1,27 @@
+{
+    "mcpServers": {
+      "notion_composio": {
+        "url": "https://mcp.composio.dev/notion/blushing-dry-leather-8knqdG"
+      },
+      "gmail_composio": {
+        "url": "https://mcp.composio.dev/gmail/blushing-dry-leather-8knqdG"
+      },
+      "youtube_composio": {
+        "url": "https://mcp.composio.dev/youtube/agitated-scarce-actor-7znC9a?agent=cursor"
+      },
+      "weather": {
+            "command": "/Users/chloechen/.local/bin/uv",
+            "args": [
+                "--directory",
+                "/Users/chloechen/Desktop/mcp-experiment",
+                "run",
+                "weather.py"
+            ]
+      },
+      "basic_tool": {
+        "url": "http://0.0.0.0:8000/sse",
+        "disable": false,
+        "transportType": "sse"
+      }
+    }
+  }
